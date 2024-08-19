@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style files/Style.css">
+    <link rel="stylesheet" href="./style files/responsive.css">
+    <link rel="stylesheet" href="./style files/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="icon" href="./images/us-flag.jpeg">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!-- <script src="https://kit.fontawesome.com/abe2e6a598.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <header>
+            <!-- mobile-menu -->
+            <nav id="mobile-menu-navbar" class="mobile-menu-navbar">
+                <a href="#mobile-menu-toggle" class="menu-close">
+                    <i class="fa-solid fa-close"></i>
+                </a>
+                <ul id="mobile-menu-ul-1" class="mobile-menu-ul">
+                    <li><a href="#" style="color: #7AA93C; text-decoration: none;width: 100%;">HOME</a></li>
+                    <li id="mobile-categ-li">CATEGORIES
+                    </li>
+                    <li>PRODUCTS</li>
+                    <li>PAGES</li>
+                    <li>BLOG</li>
+                    <li>ElEMENTS</li>
+                    <li>SPECIAL OFFER!</li>
+                    <li>BUY PROTO!</li>
+                </ul>
+                <ul id="mobile-menu-ul-2" class="mobile-menu-ul">
+                    <li>MY ACCOUNT</li>
+                    <li>CONTACT US</li>
+                    <li>BLOG</li>
+                    <li>MY WISHLIST</li>
+                    <li>CART</li>
+                    <li>LOG IN</li>
+                </ul>
+                <form action="">
+                    <div class="mobile-menu-search-box">
+                        <input type="text" placeholder="Search...">
+                        <i class="fa-solid fa-search"></i>
+                    </div>
+                </form>
+                <div class="mobile-menu-logos">
+                    <i class="fa-brands fa-facebook-f facebook_mobile-menu" title="facebook"></i>
+                    <i class="fa-brands fa-twitter twitter_mobile-menu" title="Twitter"></i>
+                    <i class="fa-brands fa-instagram instagram_mobile-menu" title="Instagram"></i>
+                </div>
+            </nav>
+            <a href="#" class="backdrop"></a>
+
+            <!-- shopping cart menu -->
+
+            <nav id="shoping-cart-menu">
+                <a href="#" class="shoping-cart-menu-close">
+                    <i class="fa-solid fa-close"></i>
+                </a>
+                <div class="shoping-cart-menu-wrapper">
+                    <div class="shoping-cart-menu-heading">
+                        <h2>Shopping Cart</h2>
+                    </div>
+                    <div class="shoping-cart-menu-products">
+                        <div class="shoping-cart-menu-product-1">
+                            <div class="shoping-cart-product-1-subchild-1">
+                                <p>Ultimate 3D Bluetooth Speaker</p>
+                                <p>1 × $99.00</p>
+                            </div>
+                            <div class="shoping-cart-product-1-subchild-2">
+                                <img src="/images/watch_cart.jpg" alt="watch" width="80px" height="80px">
+                                <i class="fa-solid fa-close" id="shoping-cart-menu-prod-close"></i>
+                            </div>
+
+                        </div>
+                        <div class="shoping-cart-menu-product-2">
+                            <div class="shoping-cart-product-2-subchild-1">
+                                <p>Brown Women Casual HandBag</p>
+                                <p>1 × $35.00</p>
+                            </div>
+
+                            <div class="shoping-cart-product-2-subchild-2">
+                                <img src="/images/womenbag_cart.jpg" alt="bag" width="80px" height="80px">
+                                <i class="fa-solid fa-close" id="shoping-cart-menu-prod-close"></i>
+                            </div>
+                        </div>
+                        <div class="shoping-cart-menu-product-3">
+                            <div class="shoping-cart-product-3-subchild-1">
+                                <p>Circled Ultimate 3D Speaker</p>
+                                <p>1 × $35.00</p>
+                            </div>
+                            <div class="shoping-cart-product-3-subchild-2">
+                                <img src="/images/3dspeaker_cart.jpg" alt="speaker" width="80px" height="80px">
+                                <i class="fa-solid fa-close" id="shoping-cart-menu-prod-close"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shoping-cart-menu-cart-btns">
+                        <div class="subtotal-text-div">
+                            <p class="subtotal-text-div-p1">SUBTOTAL</p>
+                            <P class="subtotal-text-div-p2">$134.00</P>
+                        </div>
+                        <a href="#" id="viewcart-btn">VIEW CART</a>
+                        <a href="#" id="checkout-btn">CHECKOUT</a>
+                    </div>
+                </div>
+            </nav>
+            <a href="#" class="backdrop"></a>
+            <nav class="top-navbar">
+                <div class="top-navbar-child-1">
+                    <div class="top-navbar-child-1-lang-box">
+                        <div class="top-navbar-lang-box">
+                            <span>ENG</span>
+                            <i class="fa-sharp-duotone fa-solid fa-chevron-down"></i>
+                            <div class="lang-dropdown-1">
+                                <div style="width: 100%; text-align: center;">ENG</div>
+                                <div style="width: 100%; text-align: center;">URDU</div>
+                            </div>
+                        </div>
+                        <div class=" top-navbar-pay-box">
+                            <span>USD</span>
+                            <i class="fa-sharp-duotone fa-solid fa-chevron-down"></i>
+                            <div class="lang-dropdown-2">
+                                <div style="width: 100%; text-align: center;">EUR</div>
+                                <div style="width: 100%; text-align: center;">PKR</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>FREE RETURNS. STANDARD SHIPPING ORDERS $99+</p>
+                </div>
+                <span class="top-nav-sepearator-1"></span>
+                <div class="top-navbar-child-2">
+                    <div class="top-nav-dropdown-div">
+                        <a href="#" id="top-nav-dropdown-a">Links</a>
+                        <i class="fa-sharp-duotone fa-solid fa-chevron-down"></i>
+                        <ul id="top-nav-ul">
+                            <li>My account</li>
+                            <li>Contact Us</li>
+                            <li>Blog</li>
+                            <li>Whislist</li>
+                            <li>Cart</li>
+                            <li>Log In</li>
+                        </ul>
+                    </div>
+                    <span class="top-nav-sepearator-2"></span>
+                    <div class="top-navbar-logos">
+                        <div>
+                            <i class="fa-brands fa-facebook-f facebook_top" title="facebook"></i>
+                            <i class="fa-brands fa-twitter twitter_top" title="Twitter"></i>
+                            <i class="fa-brands fa-instagram instagram_top" title="Instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Middle navbar started             -->
+            <nav class="middle-navbar">
+                <div class="middle-navbar-child-1">
+                    <form action="" class="form-flex-container">
+                        <input type="text" name="text" id="text_input" placeholder="Search...">
+                        <select name="select" id="select_field" size="1">
+                            <option value="">All Categories</option>
+                            <option value="">Fashion</option>
+                            <option value="">- Women</option>
+                            <option value="">- Men</option>
+                            <option value="">- Jewellery</option>
+                            <option value="">- Kids Fashion</option>
+                            <option value="">Electronics</option>
+                            <option value="">- Smart TVs</option>
+                            <option value="">- Cameras</option>
+                            <option value="">- Games</option>
+                            <option value="">Home & Garden</option>
+                            <option value="">Motors</option>
+                            <option value="">- Cars & trucks</option>
+                            <option value="">- Motorcycles & Powersports</option>
+                            <option value="">- Parts & Accessories</option>
+                            <option value="">- Boats</option>
+                            <option value="">- Auto Tools & Supplies</option>
+                        </select>
+                        <div class="search-icon-div">
+                            <i class="fa-solid fa-search"></i>
+                        </div>
+                    </form>
+                </div>
+                <div class="middle-navbar-child-2">
+                    <a href="#mobile-menu-navbar" class="menu-toggle" id="mobile-menu-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <img src="./images/logo.png" alt="Logo">
+                </div>
+                <div class="middle-navbar-child-3">
+                    <i class="fa-solid fa-search"></i>
+                    <div class="middle-navbar-child-3-subchild-1">
+                        <img src="./images/call us now.PNG" alt="">
+                    </div>
+                    <div class="middle-navbar-child-3-subchild-2">
+                        <img src="./images/user.PNG" alt="">
+                        <img src="./images/Heart.PNG" alt="">
+                        <a href="#shoping-cart-menu" id="shoping-cart-menu-toggle">
+                            <img src="./images/cart.PNG" alt="">
+                            <!-- <i class="fa-solid fa-chevron-left" style="cursor: pointer; "></i> -->
+                        </a>
+                        <!-- <i class="fa-solid fa-chevron-left"></i> -->
+                    </div>
+                </div>
+            </nav>
+            <!-- Middle navbar ended -->
+            <nav class="last-navbar">
+                <div class="last-nav-wrapper">
+                    <ul id="last-nav-ul">
+                        <li class="last-nav-li" id="active-link-li"><a href="#" id="active-link-a">Home</a></li>
+                        <li class="last-nav-li" id="categories-dropdown-li"><a href="#">Categories</a>
+                            <i class="fa-sharp-duotone fa-solid fa-chevron-down"></i>
+                            <div class="categories-dropdown-container">
+                                <ul>
+                                    <a href="#" style="color: black;">Varaition 1</a>
+                                    <li>fullwidth banner</li>
+                                    <li>boxed slider banner</li>
+                                    <li>boxed image banner</li>
+                                    <li>left sidebar</li>
+                                    <li>right sidebar</li>
+                                    <li>product flex grid</li>
+                                    <li>horizontol filter1</li>
+                                    <li>horizontal filter2</li>
+                                </ul>
+                                <ul>
+                                    <a href="#" style="color: black;">Variation 2</a>
+                                    <li>list types</li>
+                                    <li>ajax infinite scroll</li>
+                                    <li>3 column product</li>
+                                    <li>4 columnns Products</li>
+                                    <li>5 columnns Products</li>
+                                    <li>6 columnns Products</li>
+                                    <li>7 columnns Products</li>
+                                    <li>8 columnns Products</li>
+                                </ul>
+                                <div>
+                                    <img src="/images/dropdownshirtimg.jpg" alt="">
+                                    <div class="dropdown-discount-box">
+                                        <h4>
+                                            UP TO
+                                        </h4>
+                                        <b>50% <b class="child-b">OFF</b></b>
+                                        <a href="">SHOP NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last-nav-li" id="product-dropdown-li"><a href="#">Products</a>
+                            <i class="fa-sharp-duotone fa-solid fa-chevron-down"></i>
+                            <div class="product-dropdown-container">
+                                <ul>
+                                    <a href="#" style="color:black;">Varaition 1</a>
+                                    <li>fullwidth banner</li>
+                                    <li>boxed slider banner</li>
+                                    <li>boxed image banner</li>
+                                    <li>left sidebar</li>
+                                    <li>right sidebar</li>
+                                    <li>product flex grid</li>
+                                    <li>horizontol filter1</li>
+                                    <li>horizontal filter2</li>
+                                </ul>
+                                <ul>
+                                    <a href="#" style="color: black;">Variation 2</a>
+                                    <li>list types</li>
+                                    <li>ajax infinite scroll</li>
+                                    <li>3 column product</li>
+                                    <li>4 columnns Products</li>
+                                    <li>5 columnns Products</li>
+                                    <li>6 columnns Products</li>
+                                    <li>7 columnns Products</li>
+                                    <li>8 columnns Products</li>
+                                </ul>
+                                <div>
+                                    <img src="/images/dropdownshirtimg.jpg" alt="">
+                                    <div class="dropdown-discount-box">
+                                        <h4>UP TO </h4>
+                                        <b>50% <b class="child-b">OFF</b></b>
+                                        <a href="">SHOP NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last-nav-li" id="pages-dropdown-li"><a href="#">Pages</a>
+                            <i class="fa-sharp-duotone fa-solid fa-chevron-down"></i>
+                            <div class="pages-dropdown-container">
+                                <ul class="pages-first-ul">
+                                    <li>SHOPPING CART</li>
+                                    <li id="checkout-dropdown-li">CHECKOUT
+                                        <i class="fa-sharp-duotone fa-solid fa-chevron-right"
+                                            style="align-self: center;"></i>
+                                        <div class="checkout-dropdown-container">
+                                            <ul>
+                                                <li>CHECKOUT SHIPPING 1</li>
+                                                <li>CHECKOUT SHIPPING 2</li>
+                                                <li>CHECKOUT REVIEW</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li id="dashboard-dropdown-li">DASHBOARD
+                                        <i class="fa-sharp-duotone fa-solid fa-chevron-right"
+                                            style="align-self: center;"></i>
+                                        <div class="dashboard-dropdown-container">
+                                            <ul>
+                                                <li>DASHBOARD</li>
+                                                <li>MY ACCOUNT</li>
+                                                <li>LOG IN</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>ABOUT US</li>
+                                    <li id="blog-dropdown-li">BLOG
+                                        <i class="fa-sharp-duotone fa-solid fa-chevron-right"
+                                            style="align-self: center;"></i>
+                                        <div class="blog-dropdown-container">
+                                            <ul>
+                                                <li>START BLOOGING</li>
+                                                <li>BLOG</li>
+                                                <li>LOG OUT</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>CONTACT US</li>
+                                    <li>LOGIN</li>
+                                    <li>FORGOT PASSWORD</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="last-nav-li"><a href="#">blog</a></li>
+                        <li class="last-nav-li" id="elements-dropdown-li"><a href="#">Elements</a>
+                            <i class="fa-sharp-duotone fa-solid fa-chevron-down"></i>
+                            <div class="elements-dropdown-container">
+                                <ul>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                    <li>DUMMY TEXT</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="last-nav-li" id="li-d-none_1200"><a href="3">Special offer!</a></li>
+                        <li class="last-nav-li" id="li-d-none_1200"><a href="#">Buy Proto!</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- header Ended -->
+        <section class="hero-section">
+            <div class="hero-section-text-container">
+                <p>Totally Wireless High-Performance</p>
+                <h2>Select Headphones</h2>
+                <h1>30% OFF</h1>
+                <b>STARTING AT</b>
+                <a href="#" class="pink-a-btn">
+                    <span>$</span>199<span>99</span></a>
+                <a href="#" class="shopnow-btn">SHOP NOW!</a>
+            </div>
+        </section>
+        <!-- hero-section-servics started -->
+        <section class="hero-section-services">
+            <div class="hero-section-services-child-1" id="hero-section-services-childs">
+                <img src="./images/shipping.PNG" alt="" width="60px" height="40px">
+                <div class="hero-section-services-p-box">
+                    <p>FREE SHIPPING & RETURN</p>
+                    <P>FREE SHIPPING ON ALL ORDERS OVER $99</P>
+                </div>
+            </div>
+            <div class="hero-section-services-child-2" id="hero-section-services-childs">
+                <img src="./images/doolar-circle.PNG" alt="" width="50px" height="50px">
+                <div class="hero-section-services-p-box">
+                    <p>MONEY BACK GUARANTEE</p>
+                    <P>100% money back guarantee</P>
+                </div>
+            </div>
+            <div class="hero-section-services-child-3" id="hero-section-services-childs">
+                <img src="./images/24hours-service.PNG" alt="" width="50px" height="50px">
+                <div class="hero-section-services-p-box">
+                    <p>ONLINE SUPPORT 24/7</p>
+                    <P>lorem ipsum dolllar sit amit</P>
+                </div>
+            </div>
+        </section>
+
+        <!-- discounted-products-section-strated -->
+
+        <section class="discounted-products-container">
+            <div id="discounted-product-1" class="discounted-product">
+                <div class="discounted-product-img-container">
+                    <img src="./images/watch-product.jpg" alt="watch img">
+                </div>
+                <div class="discounted-product-text-container">
+                    <P>Save Up TO</P>
+                    <h3>100$</h3>
+                    <p>on Porto Watch Series 5</p>
+                </div>
+            </div>
+            <div id="discounted-product-2" class="discounted-product">
+                <div class="discounted-product-img-container">
+                    <img src="./images/bluetooth-product.jpg" alt="blutooth img">
+                </div>
+                <div class="discounted-product-text-container">
+                    <P>Save Up TO</P>
+                    <h3>80$</h3>
+                    <p>on Porto Pods Professional</p>
+                </div>
+            </div>
+            <div id="discounted-product-3" class="discounted-product">
+                <div class="discounted-product-img-container">
+                    <img src="./images/discounted-speaker-product.jpg" alt="speaker img">
+                </div>
+                <div class="discounted-product-text-container">
+                    <P>Save Up TO</P>
+                    <h3>90$</h3>
+                    <p>on Bluetooth Speaker</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
